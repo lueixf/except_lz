@@ -54,10 +54,10 @@ class df_except:
         file_path = "var1.csv"
         file_path2 = "var3.csv"
         file_path3 = "var11.csv"
-        processor = df_except(file_path, file_path2, file_path3)
-        processor.data()
-        processor.open()
-        processor.false()
+        process = df_except(file_path, file_path2, file_path3)
+        process.data()
+        process.open()
+        process.false()
 
     if __name__ == "__main__":
         main()   
