@@ -1,3 +1,7 @@
-import pandas as pd
-bb = df_expect()
-bb.init()
+import except_1 as exc 
+
+def main():
+    exc.main()
+
+if __name__ == '__main__':
+    main()
